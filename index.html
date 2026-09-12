@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Celebrity Image Switcher</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Celebrity Image Switcher</h1>
+
+        <div id="celebrityBox" class="celebrity-box">
+
+            <img id="celebrityImage"
+                 src="https://via.placeholder.com/300x300?text=Select+Celebrity"
+                 alt="Celebrity">
+
+            <h2 id="celebrityName">Select a Celebrity</h2>
+
+        </div>
+
+        <div class="buttons">
+
+            <button class="virat-btn" onclick="changeCelebrity('virat')">
+                Virat Kohli
+            </button>
+
+            <button class="taylor-btn" onclick="changeCelebrity('taylor')">
+                Taylor Swift
+            </button>
+
+            <button class="ronaldo-btn" onclick="changeCelebrity('ronaldo')">
+                Cristiano Ronaldo
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
